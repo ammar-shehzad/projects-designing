@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+body{
+    overflow-x: hidden;
+    background-color:#ffffff;
+}
+
+
+
+
+
+.h{
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.dropdown-menu .dropdown-item:hover{
+background-color: rgba(25, 107, 139, 0.534);
+}
+
+
+.container .row .col-lg3 img{
+    transition: 1s;
+}
+
+
+.text-justify{
+    text-align: justify;
+}
+
+
+
+.footer{
+    background-color: rgba(19, 16, 16, 0.966);
+}
+
+
+/* .name-heading{
+    color: #2F3A8E;
+} */
+
+.name-heading{
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+.price-heading{
+    color: #2F3A8E;
+}
+
+
+.text-dark{
+    font-weight: bold;
+}
+
+
+.nav-item .nav-link{
+    font-size: 15px;
+    
+}
+
+.nav-item .nav-link:hover{
+    transition: 2s;
+    background-color: rgba(25, 107, 139, 0.534);
+    text-decoration: underline;
+}
+
+
+
+
+
+.shiping{
+    
+    
+    animation-name: ball;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+
+@keyframes ball{
+    0%{color:white;}
+    25%{color: white;}
+    50%{color:black;}
+    75%{color:black;}
+    100%{color: green;}
+}
